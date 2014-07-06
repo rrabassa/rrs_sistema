@@ -9,7 +9,7 @@ public class RichBean implements Serializable {
 
     public RichBean() {
         System.out.println("post construct: initialize");
-        name = "John Bull";
+        name = "John";
     }
 
     public String getName() {
