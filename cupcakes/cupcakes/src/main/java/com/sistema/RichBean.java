@@ -7,9 +7,9 @@ public class RichBean implements Serializable {
     private static final long serialVersionUID = -2403138958014741653L;
     private String name;
 
-    public RichBean() {
+    public RichBean() {-0s
         System.out.println("post construct: initialize");
-        name = "John";
+        name = "John Bull";
     }
 
     public String getName() {
